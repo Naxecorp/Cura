@@ -48,7 +48,7 @@
             "default_value": "G28 X Y\nG1 Y10\nM104 S{print_temperature}\nM190 S{print_bed_temperature}\nG28\nG4 S5\nG34\nG29 E0\nG21\nG90\nM83\nG1 X6 Y20 F7200\nG1 Z0.2\nM109 S{print_temperature}\nG1 X10 Y20 Z0.2 F5000.0\nG1 X10 Y200.0 Z0.2 F900.0 E10\nG92 E0.0\nM82\nM117 Printing\n"
         },
         "machine_end_gcode": {
-            "default_value": "M104 S0\nM140 S0\nG92 E1\nG1 E-1 F300\nG28 X0 Y0\nM84\n"
+            "default_value": "M104 S0\nM140 S0\nG92 E1\nG1 E-1 F300\nG28 X0 Y0\n"
         }
     }
 }
